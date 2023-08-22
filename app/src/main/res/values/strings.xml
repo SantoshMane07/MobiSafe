@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobiSafe</string>
+    <string name="add_contacts_to_emergency_list">Add Contacts to Emergency List</string>
+    <string name="emergency_location_share">Emergency Location Share</string>
+    <string name="add_contacts_to_share_location">Add Contacts to Emergency List</string>
+    <string name="ESMS">Iam in Trouble at (and Your Location will be send)</string>
+</resources>
