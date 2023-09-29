@@ -183,7 +183,7 @@ public class ShareLocationViewModel extends ViewModel {
         SmsManager smsManager = SmsManager.getDefault();
         for (ContactModel contactDetails : arrEmergContacts) {
             //Log.d("LL", "shareLocationToContacts: " +latitude+" "+longitude+" "+emergMssg+" "+contactDetails.getUserPhone());
-            String location = "https://www.google.com/maps?q=" + latitude + "," + longitude;
+            String location = "https://www.google.com/maps/search/?api=1&query=" + latitude + "%2C" + longitude;
             smsManager.sendTextMessage(contactDetails.getUserPhone(), null, emergMssg + " My Location is: " + location, null, null);
         }
     }
@@ -216,7 +216,7 @@ public class ShareLocationViewModel extends ViewModel {
                                         double longitude = locationResult.getLocations().get(index).getLongitude();
                                         //Sending...to contact
                                         SmsManager smsManager = SmsManager.getDefault();
-                                        String location = "https://www.google.com/maps?q=" + latitude + "," + longitude;
+                                        String location = "https://www.google.com/maps/search/?api=1&query=" + latitude + "," + longitude;
                                         try {
                                             smsManager.sendTextMessage(phone, null, mssg + " My Location is: " + location, null, null);
                                         } catch (SecurityException e) {
