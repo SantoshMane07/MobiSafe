@@ -1,4 +1,4 @@
-package com.example.mobisafe.views;
+package com.santoshmane.mobisafe.views;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

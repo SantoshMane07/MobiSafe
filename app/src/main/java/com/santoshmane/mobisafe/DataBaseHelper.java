@@ -1,4 +1,4 @@
-package com.example.mobisafe;
+package com.santoshmane.mobisafe;
 
 import android.content.Context;
 

@@ -1,4 +1,4 @@
-package com.example.mobisafe;
+package com.santoshmane.mobisafe;
 
 import org.junit.Test;
 

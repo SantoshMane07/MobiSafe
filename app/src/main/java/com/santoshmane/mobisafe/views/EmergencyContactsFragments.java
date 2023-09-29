@@ -1,8 +1,7 @@
-package com.example.mobisafe.views;
+package com.santoshmane.mobisafe.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
 
@@ -15,18 +14,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
-import com.example.mobisafe.ContactModel;
-import com.example.mobisafe.DataBaseHelper;
+import com.santoshmane.mobisafe.ContactModel;
 import com.example.mobisafe.R;
-import com.example.mobisafe.RecyclerContactAdapter;
-import com.example.mobisafe.RecyclerEmergencyContactAdapter;
-import com.example.mobisafe.databinding.FragmentContactsListBinding;
+import com.santoshmane.mobisafe.RecyclerEmergencyContactAdapter;
 import com.example.mobisafe.databinding.FragmentEmergencyContactsFragmentsBinding;
-import com.example.mobisafe.viewmodels.ContactsListViewModel;
-import com.example.mobisafe.viewmodels.EmergencyContactsFragmentsViewModel;
+import com.santoshmane.mobisafe.viewmodels.EmergencyContactsFragmentsViewModel;
 
 import java.util.ArrayList;
 

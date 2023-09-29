@@ -1,4 +1,4 @@
-package com.example.mobisafe;
+package com.santoshmane.mobisafe;
 
 
 import androidx.room.Entity;

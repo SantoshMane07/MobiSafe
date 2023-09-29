@@ -1,4 +1,4 @@
-package com.example.mobisafe.viewmodels;
+package com.santoshmane.mobisafe.viewmodels;
 
 import androidx.lifecycle.ViewModel;
 

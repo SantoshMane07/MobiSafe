@@ -1,4 +1,4 @@
-package com.example.mobisafe;
+package com.santoshmane.mobisafe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.mobisafe.views.MainActivity;
+import com.example.mobisafe.R;
+import com.santoshmane.mobisafe.views.MainActivity;
 
 
 public class SplashScreen extends AppCompatActivity {

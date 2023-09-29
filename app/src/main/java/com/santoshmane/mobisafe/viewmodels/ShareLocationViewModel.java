@@ -1,4 +1,4 @@
-package com.example.mobisafe.viewmodels;
+package com.santoshmane.mobisafe.viewmodels;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,7 +9,6 @@ import android.os.Build;
 import android.Manifest;
 import android.os.Looper;
 import android.telephony.SmsManager;
-import android.util.Log;
 import android.widget.Toast;
 
 import java.lang.*;
@@ -18,9 +17,8 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.lifecycle.ViewModel;
 
-import com.example.mobisafe.ContactModel;
-import com.example.mobisafe.DataBaseHelper;
-import com.example.mobisafe.views.MainActivity;
+import com.santoshmane.mobisafe.ContactModel;
+import com.santoshmane.mobisafe.DataBaseHelper;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.ResolvableApiException;
 import com.google.android.gms.location.LocationCallback;
@@ -33,7 +31,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
 import java.util.ArrayList;
-import java.util.Objects;
 //
 import com.google.android.gms.location.LocationRequest;
 

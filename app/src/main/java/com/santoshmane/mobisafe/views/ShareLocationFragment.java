@@ -1,7 +1,6 @@
-package com.example.mobisafe.views;
+package com.santoshmane.mobisafe.views;
 
 import androidx.cardview.widget.CardView;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -20,10 +19,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mobisafe.ContactModel;
+import com.santoshmane.mobisafe.ContactModel;
 import com.example.mobisafe.R;
 import com.example.mobisafe.databinding.FragmentShareLocationBinding;
-import com.example.mobisafe.viewmodels.ShareLocationViewModel;
+import com.santoshmane.mobisafe.viewmodels.ShareLocationViewModel;
 
 import java.util.ArrayList;
 

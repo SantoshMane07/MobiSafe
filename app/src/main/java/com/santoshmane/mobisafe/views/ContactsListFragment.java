@@ -1,11 +1,8 @@
-package com.example.mobisafe.views;
+package com.santoshmane.mobisafe.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.lifecycle.ViewModelProvider;
 
-import android.app.ActionBar;
-import android.app.Application;
 import android.app.Dialog;
 import android.os.Bundle;
 
@@ -22,16 +19,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.mobisafe.ContactModel;
-import com.example.mobisafe.DataBaseHelper;
+import com.santoshmane.mobisafe.ContactModel;
+import com.santoshmane.mobisafe.DataBaseHelper;
 import com.example.mobisafe.R;
-import com.example.mobisafe.RecyclerContactAdapter;
+import com.santoshmane.mobisafe.RecyclerContactAdapter;
 import com.example.mobisafe.databinding.FragmentContactsListBinding;
-import com.example.mobisafe.viewmodels.ContactsListViewModel;
+import com.santoshmane.mobisafe.viewmodels.ContactsListViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ContactsListFragment extends Fragment {
 
