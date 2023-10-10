@@ -1,5 +1,6 @@
 # MobiSafe
-An Android Location and Emergency Message sharing application build in java, xml, SQLite Room database for storing contacts and followed by MVVM architecture.
+An Android Location and Emergency Message sharing application build in java, xml, SQLite Room database for storing emergency contacts.
+PlayStore link :- https://play.google.com/store/apps/details?id=com.santoshmane.mobisafe&pcampaignid=web_share
 #Output
 
 ![MobiSafesplashscreen](https://github.com/SantoshMane07/MobiSafe/assets/94973869/ff8ac1ee-40ff-44af-8598-4e2750db0c37)
